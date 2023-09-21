@@ -1,0 +1,25 @@
+#carrinho{
+    position: absolute;
+    right: 40px;
+    top: 45px;
+    font-size: 25px;
+}
+#menuinicial{
+    font-size: 30px;
+}
+.momento{
+    display: inline-block;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+#footer{
+    position: absolute;
+    bottom: -20;
+    font-size: 20px;
+}
+h2{
+    font-size: 30px;
+}
+nav{
+    background-color: #d7ecff;
+}

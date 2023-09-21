@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="geral.css">
+    <link rel="stylesheet" href="pagamento.css">
+</head>
+<body>
+    <h1>Os seus produtos são:</h1>
+    <br>
+    <div></div>
+    <form action="pagar">
+        <fieldset>
+        <h2>Forma de pagamento</h2>
+        <br>
+        <fieldset>
+        <label for="forma">Escolha um método de pagamento:</label>
+        <br>
+        <select name="forma" id="forma">
+            <option value="1">Pix</option>
+            <option value="2">Cartão de Crédito</option>
+            <option value="3">Cartão de Débito</option>
+            <option value="4">Dinheiro</option>
+        </select>
+        </fieldset>
+        <br>
+        <fieldset>
+        <label for="local"></label>
+        <select name="local" id="local">
+            <option value="1">Retirada no estabelecimento</option>
+            <option value="2">Entrega no endereço registrado</option>
+        </select>
+        </fieldset>
+        </fieldset>
+    </form>
+    <br>
+    <a href="pedido.html">Confirmar</a>
+    <br>
+    <a href="menu.html">Voltar ao Menu Inicial</a>
+</body>
+</html>
