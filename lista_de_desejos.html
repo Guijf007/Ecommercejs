@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Desejos</title>
+    <link rel="stylesheet" href="lista.css">
+</head>
+<body>
+    <a href="menu.html">Retornar</a>
+    <main class="main" id="main1">
+        <article class="article">
+            <header class="header">
+                <div class="container">
+                  <form>
+                    <input id="filter" type="text" placeholder="Procure um item">
+                  </form> 
+                </div>
+            </header>
+            <ul id="items">
+            </ul>
+            <form action="#" id="addForm">
+                <input type="text" id="item" placeholder="Adicionar" class="add">
+                <!-- <input type="submit" class="btn-dark" id="button1" value="+"> -->
+                <button type="submit" class="btn-dark" id="button1" >
+                    <i class="material-icons">+</i>
+                </button>
+            </form>
+        </article>
+    </main>
+    <script src="lista.js"></script>
+</body>
+</html>
